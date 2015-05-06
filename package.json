@@ -1,0 +1,28 @@
+{
+  "name": "paypal-api",
+  "version": "1.0.0",
+  "description": "A client for PayPal's REST APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffharrell/paypal-api"
+  },
+  "keywords": [
+    "paypal",
+    "api",
+    "rest",
+    "payments"
+  ],
+  "author": "Jeff Harrell <jeff@juxtadesign.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeffharrell/paypal-api/issues"
+  },
+  "homepage": "https://github.com/jeffharrell/paypal-api",
+  "dependencies": {
+    "request": "^2.55.0"
+  }
+}
