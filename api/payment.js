@@ -23,15 +23,15 @@ Payment.prototype.create = function create(data, callback) {
     }
 
     this.post('/v1/payments/payment', {
-        intent: data.intent || 'sale',
+        intent: data.intent,
         payer: {
-            payment_method: data.payment_method || 'paypal'
+            payment_method: data.payment_method
         },
         transactions: [
             {
                 amount: {
                     total: data.total,
-                    currency: data.currency || 'USD'
+                    currency: data.currency
                 }
             }
         ],
