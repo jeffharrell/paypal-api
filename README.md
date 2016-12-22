@@ -15,4 +15,4 @@ $ npm link
 
 ## Disclaimer
 
-Yes, I acknowledge there are no tests. This was intended for use with the [PayPal CLI](https://github.com/jeffharrell/paypal-cli) and that has test coverage. One day if I have time...
+Yes, I acknowledge there are no tests. This was intended for use with the [PayPal CLI](https://github.com/jeffharrell/paypal-cli) and that has test coverage. One day if I have time. Hopefully, this serves as inspiration for other developers out there.
